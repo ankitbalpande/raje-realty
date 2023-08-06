@@ -1,0 +1,418 @@
+@media (min-width:1199px) {
+    .sub-heading{
+        width: 55% !important;
+    }
+    .testimonials-content{
+        width: 56% !important;
+        height: 7.5rem;
+    }
+    
+}
+@media (min-width:1000px){
+    .resale-properties-hiranandani-estate-in-thane{
+        width: 70%;
+        text-align: center;
+    }
+    .properties-text h3{
+        font-size: 24px;
+        font-weight: 300;
+        
+    }
+   
+}
+@media (max-width:1000px) {
+    .testimonials-content{
+        bottom: 40PX;
+    }
+    .resale-properties-hiranandani-estate-in-thane{
+        width: 70%;
+        text-align: center;
+    }
+    .error-width-img{
+        width: 25% !important;
+    }
+    .properties-text h3{
+        font-size: 20px;
+        font-weight: 300;
+        
+    }
+}
+
+@media (min-width:992px) {
+
+    .container{
+        max-width: 90%  ;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin:0 auto;
+    }
+    .main-heading{
+        font-size: 2.1rem ; 
+    }
+    .sub-heading {
+        font-size: 3rem;
+        width: 66%;
+    }
+    .home-banner img,
+    .home-banner{
+        height:100vh ;
+    }
+    .headder-svg{
+        position: absolute;
+        top: 346px;
+        left: 50%;
+        transform: translateY(-49%);
+        z-index: 2;
+    }
+    
+    .left-area::before{
+        content: "";
+        width: 2px;
+        height: 25px;
+        background: var(--color-fff);
+        position: absolute;
+        top: 210px;
+        left: 59%;
+    }
+    .headder-svg-common{
+        position: absolute;
+        top: 364px;
+        left: 50%;
+        transform: translateY(-59%);
+        z-index: 2;
+    }
+    .left-area-common::before{
+        content: "";
+        width: 2px;
+        height: 25px;
+        background: var(--color-fff);
+        position: absolute;
+        top: 205px;
+        left: 59%;
+    }
+    .contact-body-form{
+        margin-top:98px ;
+    }
+    .testimonials-content{
+        width: 79%;
+        bottom: 7px;
+    }
+    .modal_image{
+        width: 100%;
+        height: 80vh;
+    }
+}
+
+
+
+
+
+
+@media (max-width:992px) {
+    .headder-svg{
+        position: absolute;
+        top: 333px;
+        left: 50%;
+        transform: translateY(-58%);
+    }
+    .headder-svg-common{
+        position: absolute;
+        top: 345px;
+        left: 50%;
+        transform: translateY(-59%);
+    }
+    .left-area-common::before{
+        content: "";
+        width: 2px;
+        height: 25px;
+        background: var(--color-fff);
+        position: absolute;
+        top: 211px;
+        left: 59%;
+    }
+    .main-heading{
+        font-size: 2rem;
+    }
+    .sub-heading {
+        font-size: 2.9rem;
+    }
+    .home-banner img,
+    .home-banner{
+        height:80vh ;
+    }
+    .main-heading{
+        padding-bottom: 0px;
+        margin-bottom: 0;
+    }
+    .home-about-img img{
+        width: 100%;
+    }
+    .contact-trans{
+    font-size: 70px;
+    margin-top: -15px;
+    margin-left: -120px;
+    }
+    .contact-map iframe{
+       height: 300px;
+    
+    }
+    .testimonials-content{
+        position: static;
+        width: 96%;
+        transform: translateX(0);
+        margin: 10px auto;
+    }
+   .testimonials-button{
+    left: 50%;
+    width: 100px;
+    bottom: 12px;
+    transform: translateX(-50%);
+   }
+   .left-area::before{
+        content: "";
+        width: 2px;
+        height: 25px;
+        background: var(--color-fff);
+        position: absolute;
+        top: 205px;
+        left: 59%;
+    }
+    .contact-form{
+        position: static !important;
+        width: 100% !important;
+    }
+    .contact-form-resale{
+        position: static !important;
+        width: 100% !important;
+
+    }
+    .swiper-button-next{
+        right: 50%;
+    }
+    .swiper-button-prev{
+        left: 50%;
+    }
+    .contact-body-form{
+        margin-top:24px ;
+    }
+    .modal_image{
+        width: 100%;
+        height: 100%;
+    }
+    .height-px-h-483{
+        height: auto;
+    }
+    .future-button a{
+        font-size: 16px !important;
+        padding: 3px 6px;
+    }
+}
+
+
+@media (min-width:768px) {
+    .banner-content{
+        width: 80% !important;
+    }
+    .home-about-img{
+        width: 350px;
+        height: 400px;
+    }
+    .container{
+        max-width: 100%  !important;
+    }
+    .sub-heading{
+        width: 83%;
+    }
+
+    .infrastructure-h2,
+    .infrastructure-h3{
+        line-height: 2.5rem;
+    }
+    
+}
+@media (max-width:768px) {
+    .container{
+        min-width:100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin:0 auto;
+    }
+    .home-about-img img{
+        height: auto;
+        width: 100%;
+    }
+    .hh2{
+        font-size: 1.9rem;
+    }
+    .common-headings{
+        font-size:2rem;
+        width: 70%;
+        word-spacing: 6px;
+    }
+    .contact-form{
+        position: static !important;
+        width: 100% !important;
+      
+    }
+    
+    .contact-form-resale{
+        width: 100% !important;
+    }
+    .infrastructure-h3{
+        font-size: 20px;
+    }
+    .infrastructure-middle-bg h2{
+        font-size: 1.9rem;
+    }
+    .modal_image{
+        width: 100%;
+        height: 75%;
+    }
+    .error-width-img{
+        width: 50%;
+    }
+}
+@media (max-width:647px) {
+
+    .nav-link {
+        display: block;
+        padding: .5rem ;
+      }
+    
+    .tab-pane table td{
+        width: 33.33% !important;
+        word-wrap: inherit;
+        padding: 10px 15px;
+    }
+}
+
+@media (min-width:500px) {
+    .content-margin{
+        top: 50%;
+        transform: translateY(-40%);
+    }
+}
+
+@media (max-width:500px) {
+    .testimonials-widths{
+        width: 90%;
+    }
+    .infrastructure-middle-bg h2{
+        font-size: 1.2rem;
+    }
+
+    .content-margin{
+        top: 25%;
+        
+    }
+    .line-horizontal::after{
+        top: 75%;
+    }
+    .left-area-common::before {
+        top: 142px;
+        left: 70%;
+    }
+    .headder-svg-common{
+        top: 277px;
+    }
+    
+    .main-heading{
+        font-size: 1.5rem !important;
+        line-height: normal;
+    }
+    .sub-heading{
+        font-size: 22px;
+        line-height: 45px;
+        width: 80%;
+        padding-right: 20px;
+    }
+    .common-headings{
+        font-size: 22px;
+        word-spacing: 4px;
+    }
+    
+    .headder-svg span svg{
+        width: 20px;
+        height: 20px;
+    }
+    header {
+        height: 130px;
+    }
+    
+    .main-logo{
+        width: 130px;
+        height: 130px;
+    }
+    .headder-svg{
+        position: absolute;
+        top: 266px;
+        left: 58%;
+        transform: translateY(-50%);
+    }
+    .left-area::before{
+        content: "";
+        width: 2px;
+        height: 25px;
+        background: var(--color-fff);
+        position: absolute;
+        top: 140px;
+        left: 69%;
+    }
+    .testimonials-content{
+        width: 99%;
+        height: auto;
+    }
+    
+    .overlay a {
+        font-size: .9em;
+    }
+    .modal_image{
+        width: 100%;
+        height: 65%;
+    }
+
+    .scrollbar-x{
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+.scrollbar-x::-webkit-scrollbar{
+    height: 4px;
+    width: 4px;
+    background: gray;
+}
+
+/* Track */
+.scrollbar-x::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+.scrollbar-x::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+.scrollbar-x::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.scrollbar-x::-webkit-scrollbar-thumb:horizontal{
+    background:#3c053d;
+    border-radius: 10px;
+}
+
+.error-text h1{
+    font-size: 2.5rem;
+}
+.error-text h2{
+    font-size: 2.1rem;
+}
+.error-text h3{
+    font-size: 1.3rem;
+}
+.error-text p{
+    font-size: .900rem;
+}
+}

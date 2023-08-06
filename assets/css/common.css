@@ -1,0 +1,175 @@
+
+.fs-12px{
+    font-size: 12px;
+}
+.fs-16px{
+    font-size: 16px;
+}
+.fs-18px{
+    font-size: 18px;
+}
+.fs-20px{
+    font-size: 20px;
+}
+.fs-22px{
+    font-size: 22px;
+}
+.fs-25px{
+    font-size: 25px;
+}
+.fs-1rem{
+    font-size: 1rem;
+}
+.fs-1-5rem{
+    font-size: 1.5rem;
+}
+.fs-2rem{
+    font-size: 2rem;
+}
+.fs-3rem{
+    font-size: 3rem;
+}
+
+
+
+.font-weight-200{
+    font-weight: 300;
+}
+
+.font-weight-400{
+    font-weight: 400;
+}
+
+.font-weight-500{
+    font-weight: 500;
+}
+
+.font-weight-700{
+    font-weight: 700;
+}
+
+.font-weight-600{
+    font-weight: 600;
+}
+
+.letter-spacing-01em{
+    letter-spacing:.1em;
+}
+
+.z-index-1{
+    z-index: 1;
+}
+.z-index-2{
+    z-index: 2;
+}
+.z-index-3{
+    z-index: 3;
+}
+.common-banner img,
+.common-banner{
+    width: 100%;
+    height: 75vh;
+}
+
+.banner-common {
+    bottom: 35%;
+    transform: translateY(35%);
+    color: var(--color-fff);
+    z-index: 1;
+}
+.banner-common h1{
+    letter-spacing: 0.1rem;
+}
+
+.common-banner::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.breadcrumb {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+    list-style: none;
+    background-color: #00000000;
+    border-radius: 0.25rem;
+}
+
+.breadcrumb-item.active {
+    color: #3c053d;
+    font-weight: 500;
+}
+.breadcrumb-item a {
+    color: #122236;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    float: left;
+    padding-right: 0.5rem;
+    color: #3c053d; 
+    content: ">";
+    
+}
+.common-headings{
+    font-family: var(--font-prata);
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+/****modal css*****/
+.modal{
+    background: #000000a6;
+}
+
+.modal-wid{
+    max-width:60% ;
+}
+iframe{
+    width: 100%;
+    aspect-ratio: 16/9;    
+}
+.back-button{
+    align-self: flex-end;
+    font-size: 24px;
+    color:#fff;
+}
+.back-button:hover{
+    color:#ffffff;
+}
+.modal-content{
+    background: transparent;
+    border: 0;
+}
+.on-hover:hover{
+    cursor: pointer;
+}
+@media (max-width:1199px) {
+    .modal-wid{
+        max-width:90% ;
+    }
+}
+@media (max-width:786px) {
+    .modal-wid{
+        max-width:85% ;
+    }
+}
+
+@media (max-width:576px) {
+    .modal-wid{
+        max-width:99% ;
+    }
+}
